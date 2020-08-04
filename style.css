@@ -107,7 +107,7 @@ button:hover {
 .img1 {
   background-image: url(/img/hers.jpg);
   text-align: center;
-  background-repeat: no-repeat, repeat;
+  background-repeat: no-repeat;
   background-size: cover;
   width: 300px;
 }
@@ -182,26 +182,24 @@ button:hover {
 /*  seccion4 */
 .margin4 {
   height: 300px;
-  margin: 430px 130px 0px 130px;
+  margin: 470px 130px 0px 130px;
   text-align: center;
   color: #ffff;
   display: flex;
   justify-content: space-between;
 }
 
-.margin4 img {
-  height: 200px;
-  width: 200px;
-}
+.margin4 img {}
 
 .margin4 button {
   z-index: 4;
-  color: #ffffff;
   background-color: #333;
   border-radius: 28px;
   display: inline-block;
-  padding: 5px;
-
+  padding: 8px;
+  font-size: 10px;
+  margin: 10px;
+  border: 0;
 }
 
 .margin4 button:hover {
@@ -212,15 +210,37 @@ button:hover {
 .margin4 p {
   color: #000;
   text-align: start;
-  margin-left: 15px;
 }
 
 .marginA {
   z-index: -2;
+  background-image: url(/img/hers.jpg);
+  height: 200px;
+  width: 200px;
+  background-repeat: no-repeat;
+  background-size: cover;
 }
 
 .margin4 img:hover {
   height: 100px;
   background-color: aquamarine;
   width: auto;
+}
+
+.ocultarA {
+  display: none;
+}
+
+.margin4:hover .ocultarA {
+  display: block;
+  background-color: aquamarine;
+  padding: 15px;
+  text-align: center;
+  margin-top: 110px;
+}
+
+.ocultarA:hover {
+  display: block;
+  background-color: aqua;
+  padding: 15px;
 }
