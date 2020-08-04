@@ -209,7 +209,6 @@ button:hover {
 
 .margin4 p {
   color: #000;
-  text-align: start;
 }
 
 .marginA {
@@ -243,4 +242,49 @@ button:hover {
   display: block;
   background-color: aqua;
   padding: 15px;
+}
+
+/*  seccion5 */
+
+.margin5 {
+  height: 400px;
+  background-repeat: no-repeat, repeat;
+  background-size: cover;
+  margin: 0px 130px 0px 130px;
+  text-align: center;
+  display: flex;
+  justify-content: space-between;
+}
+
+.img5 {
+  color: #ffffff;
+  background-image: url(./img/hers.jpg);
+  background-size: cover;
+  width: 40%;
+  height: 450px;
+}
+
+.img5 p {
+  padding-top: 200px;
+  font-size: 30px;
+}
+
+.texto5 {
+  padding: 80px;
+  text-align: start;
+  width: 55%;
+}
+
+.margin5 button {
+  color: #ffffff;
+  background-color: #000;
+  border-radius: 28px;
+  border: 2px solid #ffff;
+  display: inline-block;
+  padding: 15px;
+}
+
+.margin5 button:hover {
+  background-color: hsla(230, 11%, 19%, 1);
+  transition: 1s;
 }
